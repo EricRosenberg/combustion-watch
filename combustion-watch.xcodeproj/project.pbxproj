@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07082C9B2953CDDE003E4E2F /* combustion-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 07082C9A2953CDDE003E4E2F /* combustion-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		07082CA02953CDDE003E4E2F /* combustion_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07082C9F2953CDDE003E4E2F /* combustion_watchApp.swift */; };
+		07082CA42953CDDF003E4E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07082CA32953CDDF003E4E2F /* Assets.xcassets */; };
+		07082CA72953CDDF003E4E2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07082CA62953CDDF003E4E2F /* Preview Assets.xcassets */; };
+		07082CB12953CDDF003E4E2F /* combustion_watch_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07082CB02953CDDF003E4E2F /* combustion_watch_Watch_AppTests.swift */; };
+		07082CBB2953CDDF003E4E2F /* combustion_watch_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07082CBA2953CDDF003E4E2F /* combustion_watch_Watch_AppUITests.swift */; };
+		07082CBD2953CDDF003E4E2F /* combustion_watch_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07082CBC2953CDDF003E4E2F /* combustion_watch_Watch_AppUITestsLaunchTests.swift */; };
+		07082CD02953D159003E4E2F /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07082CCF2953D159003E4E2F /* CircularProgressView.swift */; };
+		07082CD82953D687003E4E2F /* CombustionBLE in Frameworks */ = {isa = PBXBuildFile; productRef = 07082CD72953D687003E4E2F /* CombustionBLE */; };
+		07082CDE2953E294003E4E2F /* ProbeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07082CDD2953E294003E4E2F /* ProbeView.swift */; };
+		07082CE02953F795003E4E2F /* ProbeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07082CDF2953F795003E4E2F /* ProbeListView.swift */; };
+		07082CE22953FE56003E4E2F /* ProbeListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07082CE12953FE56003E4E2F /* ProbeListItemView.swift */; };
+		07082CE429540921003E4E2F /* ProbeUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07082CE329540921003E4E2F /* ProbeUtilities.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07082C9C2953CDDE003E4E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07082C8E2953CDDE003E4E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07082C992953CDDE003E4E2F;
+			remoteInfo = "combustion-watch Watch App";
+		};
+		07082CAD2953CDDF003E4E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07082C8E2953CDDE003E4E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07082C992953CDDE003E4E2F;
+			remoteInfo = "combustion-watch Watch App";
+		};
+		07082CB72953CDDF003E4E2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07082C8E2953CDDE003E4E2F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07082C992953CDDE003E4E2F;
+			remoteInfo = "combustion-watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07082CC32953CDDF003E4E2F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				07082C9B2953CDDE003E4E2F /* combustion-watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		07082C942953CDDE003E4E2F /* combustion-watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "combustion-watch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07082C9A2953CDDE003E4E2F /* combustion-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "combustion-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07082C9F2953CDDE003E4E2F /* combustion_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combustion_watchApp.swift; sourceTree = "<group>"; };
+		07082CA32953CDDF003E4E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07082CA62953CDDF003E4E2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		07082CAC2953CDDF003E4E2F /* combustion-watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "combustion-watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07082CB02953CDDF003E4E2F /* combustion_watch_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combustion_watch_Watch_AppTests.swift; sourceTree = "<group>"; };
+		07082CB62953CDDF003E4E2F /* combustion-watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "combustion-watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07082CBA2953CDDF003E4E2F /* combustion_watch_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combustion_watch_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		07082CBC2953CDDF003E4E2F /* combustion_watch_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = combustion_watch_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07082CCF2953D159003E4E2F /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		07082CD52953D54A003E4E2F /* combustion-ios-ble */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "combustion-ios-ble"; path = "../../../combustion-ios-ble"; sourceTree = "<group>"; };
+		07082CDD2953E294003E4E2F /* ProbeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeView.swift; sourceTree = "<group>"; };
+		07082CDF2953F795003E4E2F /* ProbeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeListView.swift; sourceTree = "<group>"; };
+		07082CE12953FE56003E4E2F /* ProbeListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeListItemView.swift; sourceTree = "<group>"; };
+		07082CE329540921003E4E2F /* ProbeUtilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProbeUtilities.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07082C972953CDDE003E4E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07082CD82953D687003E4E2F /* CombustionBLE in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07082CA92953CDDF003E4E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07082CB32953CDDF003E4E2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07082C8D2953CDDE003E4E2F = {
+			isa = PBXGroup;
+			children = (
+				07082CD12953D377003E4E2F /* Packages */,
+				07082C9E2953CDDE003E4E2F /* combustion-watch Watch App */,
+				07082CAF2953CDDF003E4E2F /* combustion-watch Watch AppTests */,
+				07082CB92953CDDF003E4E2F /* combustion-watch Watch AppUITests */,
+				07082C952953CDDE003E4E2F /* Products */,
+				07082CD62953D687003E4E2F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07082C952953CDDE003E4E2F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07082C942953CDDE003E4E2F /* combustion-watch.app */,
+				07082C9A2953CDDE003E4E2F /* combustion-watch Watch App.app */,
+				07082CAC2953CDDF003E4E2F /* combustion-watch Watch AppTests.xctest */,
+				07082CB62953CDDF003E4E2F /* combustion-watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07082C9E2953CDDE003E4E2F /* combustion-watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				07082C9F2953CDDE003E4E2F /* combustion_watchApp.swift */,
+				07082CA32953CDDF003E4E2F /* Assets.xcassets */,
+				07082CA52953CDDF003E4E2F /* Preview Content */,
+				07082CCF2953D159003E4E2F /* CircularProgressView.swift */,
+				07082CDD2953E294003E4E2F /* ProbeView.swift */,
+				07082CDF2953F795003E4E2F /* ProbeListView.swift */,
+				07082CE12953FE56003E4E2F /* ProbeListItemView.swift */,
+				07082CE329540921003E4E2F /* ProbeUtilities.swift */,
+			);
+			path = "combustion-watch Watch App";
+			sourceTree = "<group>";
+		};
+		07082CA52953CDDF003E4E2F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				07082CA62953CDDF003E4E2F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		07082CAF2953CDDF003E4E2F /* combustion-watch Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				07082CB02953CDDF003E4E2F /* combustion_watch_Watch_AppTests.swift */,
+			);
+			path = "combustion-watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		07082CB92953CDDF003E4E2F /* combustion-watch Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				07082CBA2953CDDF003E4E2F /* combustion_watch_Watch_AppUITests.swift */,
+				07082CBC2953CDDF003E4E2F /* combustion_watch_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "combustion-watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		07082CD12953D377003E4E2F /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				07082CD52953D54A003E4E2F /* combustion-ios-ble */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		07082CD62953D687003E4E2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07082C932953CDDE003E4E2F /* combustion-watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07082CC42953CDDF003E4E2F /* Build configuration list for PBXNativeTarget "combustion-watch" */;
+			buildPhases = (
+				07082C922953CDDE003E4E2F /* Resources */,
+				07082CC32953CDDF003E4E2F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07082C9D2953CDDE003E4E2F /* PBXTargetDependency */,
+			);
+			name = "combustion-watch";
+			productName = "combustion-watch";
+			productReference = 07082C942953CDDE003E4E2F /* combustion-watch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		07082C992953CDDE003E4E2F /* combustion-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07082CC02953CDDF003E4E2F /* Build configuration list for PBXNativeTarget "combustion-watch Watch App" */;
+			buildPhases = (
+				07082C962953CDDE003E4E2F /* Sources */,
+				07082C972953CDDE003E4E2F /* Frameworks */,
+				07082C982953CDDE003E4E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "combustion-watch Watch App";
+			packageProductDependencies = (
+				07082CD72953D687003E4E2F /* CombustionBLE */,
+			);
+			productName = "combustion-watch Watch App";
+			productReference = 07082C9A2953CDDE003E4E2F /* combustion-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07082CAB2953CDDF003E4E2F /* combustion-watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07082CC72953CDDF003E4E2F /* Build configuration list for PBXNativeTarget "combustion-watch Watch AppTests" */;
+			buildPhases = (
+				07082CA82953CDDF003E4E2F /* Sources */,
+				07082CA92953CDDF003E4E2F /* Frameworks */,
+				07082CAA2953CDDF003E4E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07082CAE2953CDDF003E4E2F /* PBXTargetDependency */,
+			);
+			name = "combustion-watch Watch AppTests";
+			productName = "combustion-watch Watch AppTests";
+			productReference = 07082CAC2953CDDF003E4E2F /* combustion-watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		07082CB52953CDDF003E4E2F /* combustion-watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07082CCA2953CDDF003E4E2F /* Build configuration list for PBXNativeTarget "combustion-watch Watch AppUITests" */;
+			buildPhases = (
+				07082CB22953CDDF003E4E2F /* Sources */,
+				07082CB32953CDDF003E4E2F /* Frameworks */,
+				07082CB42953CDDF003E4E2F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07082CB82953CDDF003E4E2F /* PBXTargetDependency */,
+			);
+			name = "combustion-watch Watch AppUITests";
+			productName = "combustion-watch Watch AppUITests";
+			productReference = 07082CB62953CDDF003E4E2F /* combustion-watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07082C8E2953CDDE003E4E2F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					07082C932953CDDE003E4E2F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					07082C992953CDDE003E4E2F = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					07082CAB2953CDDF003E4E2F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 07082C992953CDDE003E4E2F;
+					};
+					07082CB52953CDDF003E4E2F = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 07082C992953CDDE003E4E2F;
+					};
+				};
+			};
+			buildConfigurationList = 07082C912953CDDE003E4E2F /* Build configuration list for PBXProject "combustion-watch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07082C8D2953CDDE003E4E2F;
+			productRefGroup = 07082C952953CDDE003E4E2F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07082C932953CDDE003E4E2F /* combustion-watch */,
+				07082C992953CDDE003E4E2F /* combustion-watch Watch App */,
+				07082CAB2953CDDF003E4E2F /* combustion-watch Watch AppTests */,
+				07082CB52953CDDF003E4E2F /* combustion-watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07082C922953CDDE003E4E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07082C982953CDDE003E4E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07082CA72953CDDF003E4E2F /* Preview Assets.xcassets in Resources */,
+				07082CA42953CDDF003E4E2F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07082CAA2953CDDF003E4E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07082CB42953CDDF003E4E2F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07082C962953CDDE003E4E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07082CD02953D159003E4E2F /* CircularProgressView.swift in Sources */,
+				07082CE22953FE56003E4E2F /* ProbeListItemView.swift in Sources */,
+				07082CE02953F795003E4E2F /* ProbeListView.swift in Sources */,
+				07082CA02953CDDE003E4E2F /* combustion_watchApp.swift in Sources */,
+				07082CDE2953E294003E4E2F /* ProbeView.swift in Sources */,
+				07082CE429540921003E4E2F /* ProbeUtilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07082CA82953CDDF003E4E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07082CB12953CDDF003E4E2F /* combustion_watch_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07082CB22953CDDF003E4E2F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07082CBB2953CDDF003E4E2F /* combustion_watch_Watch_AppUITests.swift in Sources */,
+				07082CBD2953CDDF003E4E2F /* combustion_watch_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07082C9D2953CDDE003E4E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07082C992953CDDE003E4E2F /* combustion-watch Watch App */;
+			targetProxy = 07082C9C2953CDDE003E4E2F /* PBXContainerItemProxy */;
+		};
+		07082CAE2953CDDF003E4E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07082C992953CDDE003E4E2F /* combustion-watch Watch App */;
+			targetProxy = 07082CAD2953CDDF003E4E2F /* PBXContainerItemProxy */;
+		};
+		07082CB82953CDDF003E4E2F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07082C992953CDDE003E4E2F /* combustion-watch Watch App */;
+			targetProxy = 07082CB72953CDDF003E4E2F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07082CBE2953CDDF003E4E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07082CBF2953CDDF003E4E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		07082CC12953CDDF003E4E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"combustion-watch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "combustion-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pizza.rosenberg.combustion-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		07082CC22953CDDF003E4E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"combustion-watch Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "combustion-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pizza.rosenberg.combustion-watch.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		07082CC52953CDDF003E4E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "combustion-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pizza.rosenberg.combustion-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		07082CC62953CDDF003E4E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = "combustion-watch";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pizza.rosenberg.combustion-watch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07082CC82953CDDF003E4E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pizza.rosenberg.combustion-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/combustion-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/combustion-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		07082CC92953CDDF003E4E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pizza.rosenberg.combustion-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/combustion-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/combustion-watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		07082CCB2953CDDF003E4E2F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pizza.rosenberg.combustion-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "combustion-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		07082CCC2953CDDF003E4E2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "pizza.rosenberg.combustion-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "combustion-watch Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07082C912953CDDE003E4E2F /* Build configuration list for PBXProject "combustion-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07082CBE2953CDDF003E4E2F /* Debug */,
+				07082CBF2953CDDF003E4E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07082CC02953CDDF003E4E2F /* Build configuration list for PBXNativeTarget "combustion-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07082CC12953CDDF003E4E2F /* Debug */,
+				07082CC22953CDDF003E4E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07082CC42953CDDF003E4E2F /* Build configuration list for PBXNativeTarget "combustion-watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07082CC52953CDDF003E4E2F /* Debug */,
+				07082CC62953CDDF003E4E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07082CC72953CDDF003E4E2F /* Build configuration list for PBXNativeTarget "combustion-watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07082CC82953CDDF003E4E2F /* Debug */,
+				07082CC92953CDDF003E4E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07082CCA2953CDDF003E4E2F /* Build configuration list for PBXNativeTarget "combustion-watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07082CCB2953CDDF003E4E2F /* Debug */,
+				07082CCC2953CDDF003E4E2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		07082CD72953D687003E4E2F /* CombustionBLE */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CombustionBLE;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 07082C8E2953CDDE003E4E2F /* Project object */;
+}
