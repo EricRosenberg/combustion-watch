@@ -11,6 +11,13 @@ import CombustionBLE
 struct ProbeView: View {
     @ObservedObject var probe: Probe
     
+    init(probe: Probe) {
+        self.probe = probe
+        if self.probe.connectionState != .connected {
+//            self.probe.connect()
+        }
+    }
+    
     var body: some View {
         VStack {
             // TODO: Move detection of missing predictions higher up the stack to be rendered in a separate View
@@ -20,11 +27,11 @@ struct ProbeView: View {
                     VStack {
                         Text("Core: \(getCoreTempString(probe: probe))").font(.title3).bold()
                         Text("Target: \(getTargetTempString(probe: probe))").font(.subheadline)
-                        Text("Time: \(getPredictedTimeRemaining(probe: probe))").font(.subheadline)
+                        Text(getPredictedTimeRemaining(probe: probe)).font(.subheadline)
                     }
                 }
             } else {
-                Text("Error loading probe")
+                Text("Connecting to probe...")
             }
         }.padding()
     }

@@ -21,14 +21,9 @@ struct combustion_watch_Watch_AppApp: App {
         DeviceManager.shared.initBluetooth()
 
         // Simulate Probes
+         self.deviceManager.addSimulatedProbe()
         self.deviceManager.addSimulatedProbe()
         self.deviceManager.addSimulatedProbe()
-        self.deviceManager.addSimulatedProbe()
-        self.deviceManager.addSimulatedProbe()
-        
-        for probe in deviceManager.getProbes() {
-            probe.connect()
-        }
     }
     
     var body: some Scene {

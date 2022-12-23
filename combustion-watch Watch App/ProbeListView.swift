@@ -19,7 +19,11 @@ struct ProbeListView: View {
             List{
                 ForEach(deviceManager.getProbes(), id: \.self) { probe in
                     NavigationLink(destination: ProbeView(probe: probe)){
-                        ProbeListItemView(probe: probe)
+                        ProbeListItemView(probe: probe).onAppear {
+                            if (probe.isConnectable && probe.connectionState != .connected) {
+                                probe.connect()
+                            }
+                        }
                     }
                 }
             }
